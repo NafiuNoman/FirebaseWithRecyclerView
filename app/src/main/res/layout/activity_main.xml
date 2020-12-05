@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+
+
+    <EditText
+        android:id="@+id/IdName"
+        android:layout_width="315dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Idid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/Idid"
+        android:layout_width="315dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="88dp"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="number"
+        app:layout_constraintBottom_toTopOf="@+id/IdMajor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IdName" />
+
+
+
+    <EditText
+        android:id="@+id/IdMajor"
+        android:layout_width="315dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Major"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Idid" />
+
+    <Button
+        android:id="@+id/IdBtn"
+        android:layout_width="155dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:onClick="send"
+        android:text="Save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IdMajor" />
+
+    <Button
+        android:id="@+id/IdView"
+        android:layout_width="152dp"
+        android:layout_height="68dp"
+        android:text="View"
+        android:onClick="goToRecycler"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/IdBtn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

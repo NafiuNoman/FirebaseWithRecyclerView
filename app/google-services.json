@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "322666721269",
+    "project_id": "tryfirebase-edbab",
+    "storage_bucket": "tryfirebase-edbab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322666721269:android:64eac431481485e978fabc",
+        "android_client_info": {
+          "package_name": "com.example.tryfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "322666721269-7i56ngmgom47dd4ndt1efvor9di2qp67.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCa4TMg_vqNSXnVvdXC4S4iU9uLX7ojOjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "322666721269-7i56ngmgom47dd4ndt1efvor9di2qp67.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
